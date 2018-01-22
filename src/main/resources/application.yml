@@ -1,0 +1,8 @@
+server:
+  ssl:
+    enabled: true
+    key-alias: sample-service
+    key-store: classpath:sample-service.p12
+    key-store-type: PKCS12
+    key-store-password: password
+  port: 8445
